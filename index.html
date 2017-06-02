@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Тестовое задание</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <header class="main-header">
+
+        <a class="logo"><img src="img/logo.png" alt="ЕВ"></a>
+
+        <div class="main-header__text">73</div>
+
+        <nav class="main-header__nav">
+          <ul class="main-header__nav-list">
+            <li class="main-header__nav-item"><a href="#">Автобусы</a></li>
+            <li class="main-header__nav-item"><a href="#">Столовая</a></li>
+            <li class="main-header__nav-item"><a href="#">Этажи</a></li>
+            <li class="main-header__nav-item"><a href="#">Территория</a></li>
+          </ul>
+        </nav>
+
+        <div class="user-block">
+
+          <form class="search"> 
+            <button class="search__btn" type="submit">Найти</button>
+            <input class="search__field" type="search" name="q" placeholder="Поиск">
+          </form>
+
+          <div class="user-block__messages">
+            <a href="#" class="user-block__messages-link">Сообщения</a>
+            <div class="user-block__quantity">12</div>
+          </div>
+
+          <div class="user-block__profile">
+           <div class="user-block__profile-picture"><img  src="img/profil-photo.jpg" alt="Фотография профиля"></div>
+            <div class="user-block__profile-name">Александр</div>
+          </div>
+
+        </div>
+
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a href="#">Наша компания</a></li>
+            <li class="main-nav__item"><a href="#">Наша команда</a></li>
+            <li class="main-nav__item"><a href="#">Моя безопасность</a></li>
+            <li class="main-nav__item"><a href="#">Управляющая компания</a></li>
+            <li class="main-nav__item"><a href="#">Наши предприятия</a></li>
+            <li class="main-nav__item"><a href="#">Справочники</a></li>
+            <li class="main-nav__item"><a href="#">Сервисы</a></li>
+          </ul>
+        </nav>
+
+      </header>
+
+      <main>
+
+        <section class="slider">
+
+          <div class="slider__content">
+            <div class="slider__video">
+              <div class="slider__video-preview">
+                <img src="img/video-prev.png" alt="Видео">
+                <button type="button" class="slider__video-control">Play</button>
+              </div>
+              <div class="slider__video-description">
+                <p class="slider__video-name">ЕВРАЗ ТВ</p>
+                <p class="slider__video-text">65-летие Рельсобалочного<br>цеха ЕВРАЗ НТМК</p>
+              </div>            
+            </div>
+
+            <blockquote class="slider__description">
+              <h2 class="slider__text-title">Иванов Алексей</h2>
+              <p class="slider__text">Мы все хотим, чтобы ЕВРАЗ был эффективной компанией с высоким уровнем безопасности труда, ориентированной на запросы клиентов, поставляющей продукцию высокого качества…</p>
+              <cite class="slider__cite">Старший Вице-президент,<br>Блок коммерции и развития бизнеса</cite>
+            </blockquote>
+
+          </div>
+
+          <div class="slider__news">
+            <ul class="slider__news-list">
+              <li class="slider__news-item">
+                <div class="slider__news-picture  slider__news-picture--circle"><img src="img/news-photo-1.jpg" alt="Фото новости"></div>
+                <div class="slider__news-description">
+                  <p class="slider__news-text">Царенко Владимир</p>
+                <span>Главный специалист ЕвразХолдинг</span>
+                </div>
+              </li>
+              <li class="slider__news-item">
+                <div class="slider__news-picture"><img src="img/news-photo-2.png" alt="Фото новости"></div>
+                <div class="slider__news-description">
+                  <time datetime="2016-12-12">12 декабря</time>
+                  <p class="slider__news-text  slider__news-text--important">Встреча с представителями банка ВТБ24</p>
+                </div>
+              </li>
+              <li class="slider__news-item">
+                <div class="slider__news-picture"><img src="img/news-photo-3.png" alt="Фото новости"></div>
+                <div class="slider__news-description">
+                  <time datetime="2016-12-13">13 декабря</time>
+                  <p class="slider__news-text">О проведении в 2017 году соревнований по горным лыжам и сноуборду имени Андрея Севенюка</p>
+                </div>
+              </li>
+            </ul>
+            <div class="slider__news-controls">
+              <button class="slider__controls-btn" type="button">Следующий слайд</button>
+              <button class="slider__controls-btn  slider__controls-btn--active" type="button">Следующий слайд</button>
+              <button class="slider__controls-btn" type="button">Следующий слайд</button>
+              <button class="slider__controls-btn" type="button">Следующий слайд</button>
+              <button class="slider__controls-btn" type="button">Следующий слайд</button>
+            </div>
+          </div>
+
+          <div class="slider__controls">
+            <button class="slider__controls-arrow  slider__controls-arrow--left" type="button">Слайд влево</button>
+            <button class="slider__controls-arrow" type="button">Слайд вправо</button>
+          </div>
+
+        </section>
+
+        <section class="news">
+
+          <div class="news__item">
+            <div class="news__picture">
+              <img src="img/photo-1.jpg" alt="">
+              <div class="news__region">ЮГ</div>
+            </div>
+            <p class="news__text">ЕВРАЗ передал здание шахты «МУК-96» Междуреченску</p>
+            <time>Сегодня</time>
+          </div>
+
+          <div class="news__item">
+            <div class="news__picture">
+              <img src="img/photo-2.jpg" alt="">
+              <div class="news__region">ЮГ</div>
+            </div>
+            <p class="news__text">На теплоэлектроцентрали ЕВРАЗ Южкокса внедрили систему LOTO</p>
+          </div>
+
+          <div class="news__item">
+            <div class="news__picture">
+              <img src="img/photo-3.jpg" alt="">
+              <div class="news__region  news__region--red">ЗСМК</div>
+            </div>
+            <p class="news__text">ЕВРАЗ ЗСМК посетили представители ключевого дилера строительного металлопроката</p>
+            <time>Вчера</time>
+          </div>
+
+          <div class="news__item">
+            <div class="news__picture">
+              <img src="img/photo-4.jpg" alt="">
+              <div class="news__region  news__region--orange">НТМК</div>
+            </div>
+            <p class="news__text">ЕВРАЗ НТМК повышает эффективность выплавки стали</p>
+            <time>19 декабря</time>
+          </div>
+
+          <div class="news__links">
+
+            <a href="#" class="news__link  news__link--all  btn">Все новости</a>
+            <a href="#" class="news__link  news__link--region  btn">Мой регион</a>
+
+          </div>
+
+        </section>
+
+      </main>
+
+      <footer class="main-footer">
+
+        <div class="about">
+          <div class="logo  logo--footer"><img src="img/logo-footer.png" alt="ЕВ"></div>
+          <p class="about__text">Мы ценим своих сотрудников и создаем  возможности для их профессионального развития и карьерного роста</p>
+        </div>
+
+        <div class="contacts">
+          <h3 class="contacts__title">Горячая линия</h3>
+          <p class="contacts__text">
+            <b>8-800-555-88-88</b><br>
+            для сотрудников российских предприятий
+          </p>
+
+          <p class="contacts__text">
+            <b>0-800-502-118</b><br>
+            для сотрудников украинских предприятий
+          </p>
+          <p class="contacts__text">
+            <b>8-800-080-43-58</b><br>
+            для сотрудников ЕВРАЗ Каспиан Сталь
+          </p>
+          <a href="mailto:vopros@evraz.com" class="contacts__link">vopros@evraz.com</a>
+          <a href="mailto:vopros@evraz.com" class="contacts__link-btn">Написать в горячую линию</a>
+        </div>
+
+        <div class="quotations">
+          <h3 class="quotations__title">Биржевые котировки</h3>
+          <time datetime="2016-12-28T12:35">28 декабря 12:35 (GMT)</time>
+          <table class="quatations__item">
+            <tr>
+              <td>EVRAZ (LSE):</td>
+              <td class="quatations__description">Открытие <b>221,00</b></td>
+            </tr>
+            <tr>
+              <td><b>225.10</b> GBX</td>
+              <td class="quatations__description">Максимум <b>238,80</b></td>
+            </tr>
+            <tr>
+              <td class="quatations__index">1.20 (0.54 %)</td>
+              <td class="quatations__description">Минимум <b>221,00</b></td>
+            </tr>
+          </table>
+          <table class="quatations__item">
+            <tr>
+              <td>Raspadskaya (MCX):</td>
+              <td class="quatations__description">Открытие <b>221,00</b></td>
+            </tr>
+            <tr>
+              <td><b>78.96</b> RUB</td>
+              <td class="quatations__description">Максимум <b>238,80</b></td>
+            </tr>
+            <tr>
+              <td class="quatations__index">0.65 (0.83 %)</td>
+              <td class="quatations__description">Минимум <b>221,00</b></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="portal">
+          <h3 class="portal__title">Портал</h3>
+          <ul class="portal__list">
+            <li class="portal__item"><a href="#">Обратная связь</a></li>
+            <li class="portal__item"><a href="#">Карта разделов портала</a></li>
+            <li class="portal__item"><a href="#">Заявка в Service Desk</a></li>
+            <li class="portal__item"><a href="#">Помощь</a></li>
+            <li class="portal__item"><a href="#">Команда</a></li>
+          </ul>
+          <p class="portal__text">Если вы нашли ошибку, выделите ее курсором, нажмите одновременно клавиши «CTRL» и «ENTER» и мы скорректируем неточность.</p>
+        </div>
+
+      </footer>
+
+    </div>
+
+  </body>
+</html>

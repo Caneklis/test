@@ -1,0 +1,60 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.main-header__text {
+  padding: 14px;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #231f20;
+  background-color: #e3e3e4;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+.main-header__nav {
+  width: 46%;
+  box-sizing: border-box;
+}
+
+.main-header__nav-list {  
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header__nav-item {
+  padding-left: 40px;
+  margin-right: 45px;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+  
+  &:first-child {
+    background-position: -20px -20px;
+  }
+  
+  &:nth-child(2) {
+    background-position: -20px -80px;
+  }
+  
+  &:nth-child(3) {
+    background-position: -20px -140px;
+  }
+  
+  &:last-child {
+    margin-right: 0;
+    background-position: -12px -200px;
+  }
+  
+  a {
+    font-size: 14px;
+    line-height: 24.64px;
+    color: #221f1f;
+  }
+}

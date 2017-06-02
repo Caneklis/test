@@ -1,0 +1,27 @@
+{
+  "name": "affinagetest",
+  "version": "1.0.0",
+  "description": "test work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caneklis/test.git"
+  },
+  "author": "Alex Lesukhin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caneklis/test/issues"
+  },
+  "homepage": "https://github.com/Caneklis/test#readme",
+  "devDependencies": {
+    "autoprefixer": "6.4.1",
+    "browser-sync": "2.15.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "3.1.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "6.2.0"    
+  }
+}

@@ -1,0 +1,57 @@
+body {
+  position: relative;
+  font-family: 'Pragmatica', arial;
+  color: #1f1f1f;
+  font-size: 12px;
+  line-height: 1.5;    
+  
+  &::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 65.5%;
+    height: 670px;
+    background-color: #f6f6f6;
+  }
+}
+
+.container {
+  position: relative;
+  min-width: 1280px;
+  max-width: 100%;
+  padding: 0 2%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  font-family: 'Pragmatica Cyrillic', arial;
+  text-decoration: none;
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} 
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/** {
+  outline: 1px solid red;
+}*/
